@@ -1,0 +1,37 @@
+.row{
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 20px;
+  text-align: center;
+
+}
+
+.box{
+  position: relative;
+  width: 300px;
+  height: 372px;
+  display: inline-block;
+}
+
+/* facoltativo faccio scomparire e apparire il cuore  */
+
+.heart{
+  display: none;
+}
+
+.box:hover .heart{
+  display: block;
+}
+.discount{
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 1;
+  background: red;
+  width: 30px;
+  height: 15px;
+}
+
+.discount.green {
+  background: green;
+}
